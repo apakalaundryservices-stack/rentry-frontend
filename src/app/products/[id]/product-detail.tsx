@@ -7,7 +7,7 @@ import { kes, products, type Product } from "@/lib/products";
 import { useStore } from "@/lib/store";
 import { CartPanel } from "@/app/cart-panel";
 
-const waNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "254700000000";
+const waNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "254717157044";
 
 export default function ProductDetail({ product }: { product: Product }) {
   const [qty, setQty] = useState(1);
