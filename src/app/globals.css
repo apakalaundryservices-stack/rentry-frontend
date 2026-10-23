@@ -68,3 +68,6 @@ nextjs-portal{display:none!important}
 @media(max-width:360px){.navactions{gap:8px}.account-label{display:none}.nav .brandcopy b{font-size:10px}.nav .brandcopy span{display:none}}
 
 .phone-signin-form{display:grid;gap:10px;margin-top:16px}.phone-signin-form label{display:grid;gap:5px;font-size:12px;font-weight:700;color:#344252}.phone-signin-form input{width:100%;min-width:0;height:42px;padding:0 11px;border:1px solid #d9dfe6;border-radius:6px;background:#fff;color:#172235;font:inherit}.phone-signin-form .btn{width:100%;justify-content:center}.phone-resend{justify-self:start;border:0;background:none;color:#8c5b00;font:700 11px inherit;padding:4px 0}.phone-auth-notice{margin:0!important;color:#a44936!important}
+
+@media(max-width:700px){.nav .brandcopy{overflow:hidden}.nav .brandcopy b{display:block;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}}
+
